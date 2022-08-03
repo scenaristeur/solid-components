@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <YourComponent label="Click ici" size="medium" primary="true"/>
-    <!-- <FlashCard msg="Test flash card" /> -->
+    <YourComponent label="Your Component" size="medium" primary/>
+    <FlashCard label="Flash Card" size="medium" primary/>
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -10,14 +10,14 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-// import FlashCard from '@/stories/Button.vue'
+import FlashCard from '@/components/FlashCard.vue'
 import YourComponent from '@/components/YourComponent.vue'
 
 export default {
   name: 'HomeView',
   components: {
     HelloWorld,
-    // FlashCard,
+    FlashCard,
     YourComponent
   }
 }
