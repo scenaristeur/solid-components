@@ -1,5 +1,14 @@
 # solid-components
 
+```
+vue create solid-components
+cd solid-components
+npx storybook init
+npm run storybook
+npm run serve
+```
+
+
 ## Project setup
 ```
 npm install
